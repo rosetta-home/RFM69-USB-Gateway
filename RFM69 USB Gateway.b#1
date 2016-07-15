@@ -146,12 +146,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="12.0142" y1="2.9464" x2="54.2925" y2="2.9464" width="0" layer="20"/>
-<text x="49.6062" y="6.1341" size="1.4224" layer="21" font="vector" ratio="18" rot="SR90">CRT Labs</text>
+<wire x1="11.557" y1="2.9464" x2="54.2925" y2="2.9464" width="0" layer="20"/>
+<text x="49.6062" y="6.2865" size="1.4224" layer="21" font="vector" ratio="18" rot="SR90">CRT Labs</text>
 <circle x="52.6034" y="18.3007" radius="1.143" width="0.381" layer="21"/>
 <wire x1="54.2925" y1="2.9464" x2="54.3306" y2="20.066" width="0" layer="20"/>
-<wire x1="54.3306" y1="20.066" x2="12.0142" y2="20.066" width="0" layer="20"/>
-<wire x1="12.0142" y1="20.066" x2="12.0142" y2="2.9464" width="0" layer="20"/>
+<wire x1="54.3306" y1="20.066" x2="11.557" y2="20.066" width="0" layer="20"/>
+<wire x1="11.557" y1="20.066" x2="11.557" y2="2.9464" width="0" layer="20"/>
 <wire x1="22.987" y1="10.8458" x2="22.5806" y2="11.3792" width="0.3302" layer="21"/>
 <wire x1="22.5806" y1="11.3792" x2="23.3934" y2="11.3792" width="0.3302" layer="21"/>
 <wire x1="23.3934" y1="11.3792" x2="22.987" y2="10.8458" width="0.3302" layer="21"/>
@@ -174,10 +174,10 @@
 <dimension x1="11.557" y1="0" x2="56.261" y2="0" x3="33.909" y3="-2.921" textsize="1.778" layer="51" unit="mil"/>
 <text x="17.399" y="24.511" size="1.778" layer="51">All dimensions in mils</text>
 <text x="32.893" y="3.429" size="1.778" layer="51" ratio="15">Moteino-USB</text>
-<text x="51.0159" y="11.2395" size="0.6096" layer="21" font="vector" rot="R90" align="bottom-center">RFM69 USB gateway</text>
+<text x="51.0159" y="11.2395" size="0.6096" layer="21" font="vector" ratio="9" rot="R90" align="bottom-center">RFM69 USB gateway</text>
 <text x="26.0223" y="16.4973" size="1.016" layer="22" font="vector" rot="MR270">Designed by</text>
 <text x="23.8506" y="16.8402" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">Akram Ali</text>
-<text x="20.6121" y="16.8402" size="1.016" layer="22" font="vector" ratio="9" rot="MR270">v0.3    2016</text>
+<text x="20.6121" y="16.8402" size="1.016" layer="22" font="vector" ratio="9" rot="MR270">v0.2    2016</text>
 <text x="53.3019" y="7.5819" size="0.8128" layer="21" font="vector" ratio="10" rot="R90">crtlabs.org</text>
 <wire x1="51.9303" y1="15.8496" x2="51.9303" y2="6.477" width="0.0254" layer="21"/>
 </plain>
@@ -723,8 +723,8 @@ design rules under a new name.</description>
 <vertex x="57.023" y="24.003"/>
 </polygon>
 <polygon width="0.381" layer="1">
-<vertex x="11.7348" y="23.9649"/>
-<vertex x="11.7348" y="-0.8001"/>
+<vertex x="11.049" y="24.003"/>
+<vertex x="11.049" y="-0.762"/>
 <vertex x="57.023" y="-0.762"/>
 <vertex x="57.023" y="24.003"/>
 </polygon>
