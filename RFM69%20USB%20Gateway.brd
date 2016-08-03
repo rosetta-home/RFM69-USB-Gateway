@@ -173,23 +173,23 @@
 <text x="23.8506" y="16.8402" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">Akram Ali</text>
 <text x="20.6121" y="16.8402" size="1.016" layer="22" font="vector" ratio="9" rot="MR270">v0.5    2016</text>
 <circle x="35.9283" y="15.6972" radius="0.1905" width="0.254" layer="21"/>
-<text x="19.431" y="18.9357" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="24.0411" y="18.8976" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="19.812" y="7.3152" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="23.0505" y="7.3533" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="29.4894" y="4.7625" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
-<text x="50.5587" y="5.2959" size="0.508" layer="121" font="vector">1KΩ</text>
-<text x="26.8986" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
-<text x="33.528" y="4.953" size="0.508" layer="121" font="vector" rot="R90">1μF</text>
+<text x="19.431" y="19.0119" size="0.508" layer="121" font="vector">27Ω</text>
+<text x="24.0411" y="19.0119" size="0.508" layer="121" font="vector">27Ω</text>
+<text x="19.812" y="7.5057" size="0.508" layer="121" font="vector">47Ω</text>
+<text x="23.0505" y="7.5438" size="0.508" layer="121" font="vector">47Ω</text>
+<text x="29.4513" y="4.7625" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
+<text x="50.4825" y="5.2578" size="0.508" layer="121" font="vector">1KΩ</text>
+<text x="26.9367" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
+<text x="34.0233" y="4.953" size="0.508" layer="121" font="vector" rot="R90">1μF</text>
 <text x="52.0065" y="17.8689" size="0.508" layer="121" font="vector" rot="R180">0.1μF</text>
-<text x="29.0322" y="18.9357" size="0.508" layer="121" font="vector">1μF</text>
-<text x="20.0025" y="5.2959" size="0.508" layer="121" font="vector">RX</text>
-<text x="23.241" y="5.2959" size="0.508" layer="121" font="vector">TX</text>
-<text x="19.7358" y="3.3528" size="0.3048" layer="121" font="vector">Green</text>
-<text x="23.3172" y="3.3909" size="0.3048" layer="121" font="vector">Red</text>
+<text x="29.0322" y="19.0119" size="0.508" layer="121" font="vector">1μF</text>
+<text x="20.0025" y="3.2385" size="0.508" layer="121" font="vector">RX</text>
+<text x="23.2791" y="3.2385" size="0.508" layer="121" font="vector">TX</text>
+<text x="19.7739" y="5.4102" size="0.3048" layer="121" font="vector">Green</text>
+<text x="23.3934" y="5.4483" size="0.3048" layer="121" font="vector">Red</text>
 <text x="31.5468" y="8.9535" size="0.508" layer="121" font="vector" rot="R90">16MHz</text>
 <text x="34.5567" y="13.2969" size="0.508" layer="121" font="vector" rot="R90">MCP1703</text>
-<text x="54.3306" y="3.2385" size="0.3048" layer="121" font="vector">Orange</text>
+<text x="55.0164" y="5.2959" size="0.3048" layer="121" font="vector">Orange</text>
 <text x="19.2405" y="14.478" size="0.508" layer="121" font="vector" rot="R90">GND</text>
 <text x="19.2786" y="12.3825" size="0.508" layer="121" font="vector" rot="R90">D+</text>
 <text x="19.2405" y="10.2108" size="0.508" layer="121" font="vector" rot="R90">D-</text>
@@ -200,7 +200,7 @@
 <wire x1="27.6606" y1="3.81" x2="27.7749" y2="3.81" width="0.254" layer="21"/>
 <wire x1="27.7749" y1="3.81" x2="27.9654" y2="3.6195" width="0.254" layer="21"/>
 <wire x1="28.3845" y1="3.3147" x2="27.5082" y2="3.3147" width="0.127" layer="21"/>
-<text x="47.4345" y="6.9342" size="0.6096" layer="121" font="vector" ratio="7">RESET</text>
+<text x="47.5107" y="15.7734" size="0.6096" layer="121" font="vector" ratio="7">RESET</text>
 <text x="55.5498" y="15.6972" size="0.508" layer="121" font="vector" ratio="10">RST</text>
 <text x="52.9209" y="15.6591" size="0.508" layer="121" font="vector" ratio="10">GND</text>
 <text x="52.9209" y="6.9342" size="0.508" layer="121" font="vector" ratio="10">VCC</text>
@@ -211,11 +211,12 @@
 <wire x1="12.1539" y1="2.9337" x2="12.1539" y2="20.1549" width="0" layer="20"/>
 <wire x1="12.1539" y1="20.1549" x2="58.293" y2="20.1549" width="0" layer="20"/>
 <wire x1="58.293" y1="20.1549" x2="58.293" y2="2.9337" width="0" layer="20"/>
-<text x="36.6522" y="17.9451" size="1.016" layer="21" font="vector" ratio="15">CRT Labs</text>
+<text x="36.6522" y="17.7927" size="1.016" layer="21" font="vector" ratio="15">CRT Labs</text>
 <text x="35.5473" y="5.2197" size="0.6096" layer="21" font="vector" ratio="7">RFM69 USB Gateway</text>
 <text x="37.2237" y="4.1148" size="0.6096" layer="21" font="vector">crtlabs.org</text>
 <text x="46.5582" y="4.0767" size="0.508" layer="121" font="vector">10KΩ</text>
 <text x="51.4731" y="18.8214" size="1.016" layer="22" font="vector" rot="MR180">ANT</text>
+<text x="42.5958" y="11.0109" size="0.508" layer="121" font="vector" rot="R180">ATmega328P</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -747,7 +748,7 @@ design rules under a new name.</description>
 <element name="R1" library="LowPowerLab" package="0805" value="10k" x="30.3784" y="5.6261" smashed="yes" rot="R90"/>
 <element name="C4" library="LowPowerLab" package="0805" value="1u" x="32.6009" y="5.6261" smashed="yes" rot="R270"/>
 <element name="C2" library="SparkFun" package="0805" value="1u" x="29.5656" y="18.034" smashed="yes" rot="R180"/>
-<element name="U$2" library="LowPowerLab" package="0805-LED" value="LED0805" x="55.118" y="4.3434" smashed="yes" rot="R180"/>
+<element name="U$2" library="LowPowerLab" package="0805-LED" value="LED0805" x="55.8038" y="4.3434" smashed="yes" rot="R180"/>
 <element name="R2" library="SparkFun" package="0805" value="1k" x="51.1683" y="4.3561" smashed="yes" rot="R180"/>
 <element name="U$1" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="56.2864" y="18.3388"/>
 <element name="U$5" library="LowPowerLab" package="RFM69W-MINPADS" value="RFM69" x="41.5417" y="11.4808" smashed="yes" rot="MR180"/>
@@ -1102,8 +1103,8 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="R2" pad="1"/>
 <contactref element="U$2" pad="PLUS"/>
-<wire x1="52.0683" y1="4.3561" x2="54.2553" y2="4.3561" width="0.254" layer="1"/>
-<wire x1="54.2553" y1="4.3561" x2="54.118" y2="4.3434" width="0.254" layer="1"/>
+<wire x1="52.0683" y1="4.3561" x2="54.7911" y2="4.3561" width="0.254" layer="1"/>
+<wire x1="54.7911" y1="4.3561" x2="54.8038" y2="4.3434" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="P$1"/>
