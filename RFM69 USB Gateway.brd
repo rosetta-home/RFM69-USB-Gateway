@@ -163,23 +163,23 @@
 <text x="23.8506" y="16.8402" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">Akram Ali</text>
 <text x="19.9644" y="16.8021" size="1.016" layer="22" font="vector" ratio="9" rot="MR270">v0.6    2016</text>
 <circle x="35.9283" y="15.6972" radius="0.1905" width="0.254" layer="21"/>
-<text x="18.4023" y="19.05" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="24.0411" y="19.0119" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="19.812" y="7.5057" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="23.0505" y="7.5438" size="0.508" layer="121" font="vector">47Ω</text>
+<text x="18.4023" y="19.1262" size="0.508" layer="121" font="vector">27Ω</text>
+<text x="23.6982" y="19.1262" size="0.508" layer="121" font="vector">27Ω</text>
+<text x="19.812" y="7.5438" size="0.508" layer="121" font="vector">47Ω</text>
+<text x="23.0505" y="7.6581" size="0.508" layer="121" font="vector">47Ω</text>
 <text x="34.3281" y="5.8293" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
-<text x="50.4825" y="5.2578" size="0.508" layer="121" font="vector">1KΩ</text>
+<text x="50.4825" y="5.2959" size="0.508" layer="121" font="vector">1KΩ</text>
 <text x="26.9367" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
 <text x="32.8041" y="3.8481" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
 <text x="52.0065" y="17.8689" size="0.508" layer="121" font="vector" rot="R180">0.1μF</text>
-<text x="29.0322" y="19.0119" size="0.508" layer="121" font="vector">1μF</text>
+<text x="29.0322" y="19.0881" size="0.508" layer="121" font="vector">1μF</text>
 <text x="20.0025" y="3.1623" size="0.508" layer="121" font="vector">RX</text>
 <text x="23.2791" y="3.2385" size="0.508" layer="121" font="vector">TX</text>
 <text x="19.7739" y="5.4102" size="0.3048" layer="121" font="vector">Green</text>
 <text x="23.3934" y="5.4483" size="0.3048" layer="121" font="vector">Red</text>
-<text x="34.2519" y="12.7254" size="0.508" layer="121" font="vector" rot="R180">16MHz</text>
+<text x="34.2138" y="12.9159" size="0.508" layer="121" font="vector" rot="R180">16MHz</text>
 <text x="34.5567" y="13.9446" size="0.508" layer="121" font="vector" rot="R90">MCP1703</text>
-<text x="54.5592" y="5.334" size="0.3048" layer="121" font="vector">Status LED</text>
+<text x="54.4449" y="5.3721" size="0.3048" layer="121" font="vector">Status LED</text>
 <text x="19.2405" y="14.478" size="0.508" layer="121" font="vector" rot="R90">GND</text>
 <text x="19.2786" y="12.3825" size="0.508" layer="121" font="vector" rot="R90">D+</text>
 <text x="19.2405" y="10.2108" size="0.508" layer="121" font="vector" rot="R90">D-</text>
@@ -190,7 +190,7 @@
 <wire x1="27.6606" y1="3.81" x2="27.7749" y2="3.81" width="0.254" layer="21"/>
 <wire x1="27.7749" y1="3.81" x2="27.9654" y2="3.6195" width="0.254" layer="21"/>
 <wire x1="28.3845" y1="3.3147" x2="27.5082" y2="3.3147" width="0.127" layer="21"/>
-<text x="47.625" y="15.7353" size="0.6096" layer="121" font="vector" ratio="7">RESET</text>
+<text x="47.4726" y="15.6972" size="0.6096" layer="121" font="vector" ratio="7">RESET</text>
 <text x="55.5498" y="15.8877" size="0.508" layer="121" font="vector" ratio="10">RST</text>
 <text x="52.9209" y="15.8877" size="0.508" layer="121" font="vector" ratio="10">GND</text>
 <text x="52.8828" y="6.7056" size="0.508" layer="121" font="vector" ratio="10">VCC</text>
@@ -203,7 +203,7 @@
 <wire x1="58.293" y1="20.1549" x2="58.293" y2="2.9337" width="0" layer="20"/>
 <text x="35.5473" y="5.2197" size="0.6096" layer="21" font="vector" ratio="7">RFM69 USB Gateway</text>
 <text x="36.6522" y="4.0767" size="0.8128" layer="21" font="vector" ratio="12">crtlabs.org</text>
-<text x="46.5582" y="4.0767" size="0.508" layer="121" font="vector">10KΩ</text>
+<text x="46.5582" y="4.0386" size="0.508" layer="121" font="vector">10KΩ</text>
 <text x="51.4731" y="18.8214" size="1.016" layer="22" font="vector" rot="MR180">ANT</text>
 <text x="42.5958" y="11.0109" size="0.508" layer="121" font="vector" rot="R180">ATmega328P</text>
 <text x="31.5468" y="9.525" size="0.508" layer="121" font="vector" rot="R90">0.1μF</text>
