@@ -167,17 +167,17 @@
 <text x="24.0411" y="19.0119" size="0.508" layer="121" font="vector">27Ω</text>
 <text x="19.812" y="7.5057" size="0.508" layer="121" font="vector">47Ω</text>
 <text x="23.0505" y="7.5438" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="34.29" y="6.0198" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
+<text x="34.3281" y="5.8293" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
 <text x="50.4825" y="5.2578" size="0.508" layer="121" font="vector">1KΩ</text>
 <text x="26.9367" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
-<text x="32.7279" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
+<text x="32.8041" y="3.8481" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
 <text x="52.0065" y="17.8689" size="0.508" layer="121" font="vector" rot="R180">0.1μF</text>
 <text x="29.0322" y="19.0119" size="0.508" layer="121" font="vector">1μF</text>
-<text x="20.0025" y="3.2385" size="0.508" layer="121" font="vector">RX</text>
+<text x="20.0025" y="3.1623" size="0.508" layer="121" font="vector">RX</text>
 <text x="23.2791" y="3.2385" size="0.508" layer="121" font="vector">TX</text>
 <text x="19.7739" y="5.4102" size="0.3048" layer="121" font="vector">Green</text>
 <text x="23.3934" y="5.4483" size="0.3048" layer="121" font="vector">Red</text>
-<text x="34.0995" y="12.7254" size="0.508" layer="121" font="vector" rot="R180">16MHz</text>
+<text x="34.2519" y="12.7254" size="0.508" layer="121" font="vector" rot="R180">16MHz</text>
 <text x="34.5567" y="13.9446" size="0.508" layer="121" font="vector" rot="R90">MCP1703</text>
 <text x="54.5592" y="5.334" size="0.3048" layer="121" font="vector">Status LED</text>
 <text x="19.2405" y="14.478" size="0.508" layer="121" font="vector" rot="R90">GND</text>
@@ -732,7 +732,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X1" library="SparkFun" package="RESONATOR-SMD" value="16 MHz" x="32.8676" y="9.9568" smashed="yes" rot="R270"/>
+<element name="X1" library="SparkFun" package="RESONATOR-SMD" value="16 MHz" x="32.9819" y="10.0711" smashed="yes" rot="R270"/>
 <element name="IC3" library="linear" package="SOT23" value="MCP1703CB" x="31.8389" y="15.5575" smashed="yes" rot="R90"/>
 <element name="ATMEGA328" library="LowPowerLab" package="TQFP32-08" value="ATMega-328" x="40.0939" y="11.684" smashed="yes"/>
 <element name="C5" library="SparkFun" package="0805" value="0.1" x="50.8889" y="18.8849" smashed="yes"/>
@@ -837,17 +837,18 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="X1" pad="1"/>
 <contactref element="ATMEGA328" pad="7"/>
-<wire x1="32.8676" y1="11.1568" x2="33.4964" y2="11.1568" width="0.254" layer="1"/>
-<wire x1="33.4964" y1="11.1568" x2="34.9758" y2="9.6774" width="0.254" layer="1"/>
-<wire x1="34.9758" y1="9.6774" x2="35.7947" y2="9.6774" width="0.254" layer="1"/>
 <wire x1="35.7947" y1="9.6774" x2="35.8013" y2="9.684" width="0.254" layer="1"/>
+<wire x1="35.8013" y1="9.684" x2="35.1978" y2="9.684" width="0.254" layer="1"/>
+<wire x1="35.1978" y1="9.684" x2="33.6042" y2="11.2776" width="0.254" layer="1"/>
+<wire x1="33.6042" y1="11.2776" x2="32.9884" y2="11.2776" width="0.254" layer="1"/>
+<wire x1="32.9884" y1="11.2776" x2="32.9819" y2="11.2711" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="X1" pad="3"/>
 <contactref element="ATMEGA328" pad="8"/>
-<wire x1="32.8043" y1="8.884" x2="32.8676" y2="8.7568" width="0.254" layer="1"/>
-<wire x1="35.8013" y1="8.884" x2="33.0329" y2="8.884" width="0.254" layer="1"/>
-<wire x1="33.0329" y1="8.884" x2="32.8676" y2="8.7568" width="0.254" layer="1"/>
+<wire x1="32.8043" y1="8.884" x2="32.9819" y2="8.8711" width="0.254" layer="1"/>
+<wire x1="35.8013" y1="8.884" x2="32.9948" y2="8.884" width="0.254" layer="1"/>
+<wire x1="32.9948" y1="8.884" x2="32.9819" y2="8.8711" width="0.254" layer="1"/>
 </signal>
 <signal name="AREF">
 <contactref element="ATMEGA328" pad="20"/>
