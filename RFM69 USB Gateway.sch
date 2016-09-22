@@ -3960,7 +3960,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Moteino"/>
+<part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="RFM69 USB Gateway"/>
 <part name="SUPPLY4" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
@@ -4003,6 +4003,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 </parts>
 <sheets>
 <sheet>
+<description>RFM 69 USB Gateway</description>
 <plain>
 <text x="166.116" y="15.748" size="3.81" layer="94" font="vector" ratio="10">CRT Labs</text>
 <text x="217.678" y="20.32" size="2.54" layer="94" font="vector">author: Akram Ali</text>
@@ -4012,7 +4013,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <wire x1="167.64" y1="157.48" x2="165.1" y2="160.02" width="0.1524" layer="96"/>
 <wire x1="167.64" y1="160.02" x2="167.64" y2="154.94" width="0.1524" layer="96"/>
 <wire x1="162.56" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="96"/>
-<text x="34.29" y="8.382" size="2.54" layer="94" font="vector">ALL CONTENT LICENSED UNDER  [CC BY-NC-SA 3.0]</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
