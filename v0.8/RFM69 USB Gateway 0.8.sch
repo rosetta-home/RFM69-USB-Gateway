@@ -3319,21 +3319,21 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <part name="X1" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz"/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="IC3" library="linear" deviceset="MCP1703" device="CB"/>
-<part name="C5" library="SparkFun" deviceset="CAP" device="0805" value="0.1"/>
-<part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="10k"/>
-<part name="C4" library="LowPowerLab" deviceset="CAP" device="0805" value="1u"/>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0805" value="1u"/>
+<part name="C5" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
+<part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="10KΩ"/>
+<part name="C4" library="LowPowerLab" deviceset="CAP" device="0805" value="1μF"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0805" value="1μF"/>
 <part name="U$2" library="LowPowerLab" deviceset="LED" device="0805" value="LED0805"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="1k"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="1KΩ"/>
 <part name="U$1" library="LowPowerLab" deviceset="RFM12B_ANTENNA" device=""/>
 <part name="U$5" library="LowPowerLab" deviceset="RFM69" device=""/>
 <part name="CN1" library="SparkFun-Connectors" deviceset="USB" device="-A-H" value="MINIB"/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0805-RES"/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0805-RES"/>
-<part name="U$4" library="LowPowerLab" deviceset="LED" device="0805" value="LED0805"/>
-<part name="U$7" library="LowPowerLab" deviceset="LED" device="0805" value="LED0805"/>
-<part name="C6" library="SparkFun" deviceset="CAP" device="0805" value="0.1u"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω"/>
+<part name="RX" library="LowPowerLab" deviceset="LED" device="0805" value="Green"/>
+<part name="TX" library="LowPowerLab" deviceset="LED" device="0805" value="Red"/>
+<part name="C6" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
@@ -3342,9 +3342,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="27Ω"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="SUPPLY1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="10KΩ"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="0.1"/>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
 <part name="J$1" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>
 <part name="U2" library="ATMEGA328P-MU" deviceset="ATMEGA328P-MU" device=""/>
 <part name="FT231XQ-R" library="ftdi_ft231xq-r" deviceset="FT231XQ-R" device=""/>
@@ -3390,8 +3390,8 @@ wire antenna</text>
 <instance part="CN1" gate="G$1" x="124.46" y="144.78" rot="R180"/>
 <instance part="R4" gate="G$1" x="231.14" y="116.84"/>
 <instance part="R6" gate="G$1" x="236.22" y="119.38"/>
-<instance part="U$4" gate="G$1" x="218.44" y="119.38"/>
-<instance part="U$7" gate="G$1" x="210.82" y="116.84"/>
+<instance part="RX" gate="G$1" x="218.44" y="119.38"/>
+<instance part="TX" gate="G$1" x="210.82" y="116.84"/>
 <instance part="C6" gate="G$1" x="157.48" y="137.16"/>
 <instance part="SUPPLY9" gate="GND" x="137.16" y="132.08"/>
 <instance part="SUPPLY12" gate="GND" x="175.26" y="106.68"/>
@@ -3811,7 +3811,7 @@ wire antenna</text>
 <net name="N$6" class="0">
 <segment>
 <wire x1="215.9" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="MINUS"/>
+<pinref part="RX" gate="G$1" pin="MINUS"/>
 <pinref part="FT231XQ-R" gate="G$1" pin="CBUS1"/>
 <wire x1="205.74" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <junction x="205.74" y="119.38"/>
@@ -3820,7 +3820,7 @@ wire antenna</text>
 <net name="N$7" class="0">
 <segment>
 <wire x1="205.74" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="MINUS"/>
+<pinref part="TX" gate="G$1" pin="MINUS"/>
 <pinref part="FT231XQ-R" gate="G$1" pin="CBUS2"/>
 <junction x="205.74" y="116.84"/>
 <wire x1="208.28" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
@@ -3830,13 +3830,13 @@ wire antenna</text>
 <segment>
 <wire x1="226.06" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="U$7" gate="G$1" pin="PLUS"/>
+<pinref part="TX" gate="G$1" pin="PLUS"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="231.14" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="PLUS"/>
+<pinref part="RX" gate="G$1" pin="PLUS"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>

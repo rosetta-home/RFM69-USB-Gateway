@@ -171,23 +171,9 @@
 <text x="44.4373" y="6.4008" size="0.7112" layer="22" font="vector" rot="MR180">Designed by</text>
 <text x="51.6382" y="4.0894" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">Akram Ali</text>
 <text x="13.462" y="11.5697" size="0.8128" layer="22" font="vector" ratio="9" rot="MR270" align="bottom-center">v0.8    2016</text>
-<text x="18.4023" y="19.1262" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="23.6982" y="19.1262" size="0.508" layer="121" font="vector">27Ω</text>
-<text x="19.812" y="7.5438" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="23.0505" y="7.6581" size="0.508" layer="121" font="vector">47Ω</text>
-<text x="34.3281" y="5.8293" size="0.508" layer="121" font="vector" rot="R90">10KΩ</text>
-<text x="44.069" y="5.6642" size="0.508" layer="121" font="vector">1KΩ</text>
-<text x="26.9367" y="3.8862" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
-<text x="32.8041" y="3.8481" size="0.508" layer="121" font="vector" rot="R180">1μF</text>
 <text x="52.0065" y="17.8689" size="0.508" layer="121" font="vector" rot="R180">0.1μF</text>
-<text x="29.0322" y="19.0881" size="0.508" layer="121" font="vector">1μF</text>
-<text x="20.0025" y="3.1623" size="0.508" layer="121" font="vector">RX</text>
-<text x="23.2791" y="3.2385" size="0.508" layer="121" font="vector">TX</text>
 <text x="19.7739" y="5.4102" size="0.3048" layer="121" font="vector">Green</text>
 <text x="23.3934" y="5.4483" size="0.3048" layer="121" font="vector">Red</text>
-<text x="34.2138" y="12.9159" size="0.508" layer="121" font="vector" rot="R180">16MHz</text>
-<text x="34.5567" y="13.9446" size="0.508" layer="121" font="vector" rot="R90">MCP1703</text>
-<text x="48.4886" y="6.6421" size="0.3048" layer="121" font="vector">Status LED</text>
 <text x="19.2405" y="14.478" size="0.508" layer="121" font="vector" rot="R90">GND</text>
 <text x="19.2786" y="12.3825" size="0.508" layer="121" font="vector" rot="R90">D+</text>
 <text x="19.2405" y="10.2108" size="0.508" layer="121" font="vector" rot="R90">D-</text>
@@ -207,10 +193,7 @@
 <text x="47.4853" y="12.2682" size="0.508" layer="121" font="vector" ratio="10" rot="R270">SCK</text>
 <text x="31.8135" y="4.6355" size="0.6604" layer="21" font="vector" ratio="7">RFM69 USB Gateway</text>
 <text x="33.3248" y="3.6195" size="0.8128" layer="21" font="vector" ratio="12">crtlabs.org</text>
-<text x="43.7261" y="4.0767" size="0.508" layer="121" font="vector">10KΩ</text>
 <text x="46.2788" y="19.4437" size="0.8128" layer="21" font="vector" rot="R270">ANT</text>
-<text x="42.5958" y="11.0109" size="0.508" layer="121" font="vector" rot="R180">ATmega328P</text>
-<text x="31.5468" y="9.525" size="0.508" layer="121" font="vector" rot="R90">0.1μF</text>
 <rectangle x1="39.78275" y1="16.87195" x2="40.08755" y2="16.91005" layer="121"/>
 <rectangle x1="39.70655" y1="16.91005" x2="40.12565" y2="16.94815" layer="121"/>
 <rectangle x1="39.70655" y1="16.94815" x2="40.16375" y2="16.98625" layer="121"/>
@@ -1301,45 +1284,40 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X1" library="SparkFun" package="RESONATOR-SMD" value="16 MHz" x="37.7063" y="6.7183" smashed="yes"/>
-<element name="IC3" library="linear" package="SOT23" value="MCP1703CB" x="28.6893" y="17.3863" smashed="yes" rot="R90"/>
-<element name="C5" library="SparkFun" package="0805" value="0.1" x="36.1061" y="15.8877" smashed="yes"/>
-<element name="R1" library="LowPowerLab" package="0805" value="10k" x="33.3121" y="6.7183" smashed="yes"/>
-<element name="C4" library="LowPowerLab" package="0805" value="1u" x="32.4485" y="17.3355" smashed="yes" rot="R270"/>
-<element name="C2" library="SparkFun" package="0805" value="1u" x="24.9936" y="17.1958" smashed="yes" rot="R270"/>
-<element name="U$2" library="LowPowerLab" package="0805-LED" value="LED0805" x="50.1777" y="4.7625" smashed="yes" rot="R180"/>
-<element name="R2" library="SparkFun" package="0805" value="1k" x="46.2534" y="4.7752" smashed="yes" rot="R180"/>
+<element name="X1" library="SparkFun" package="RESONATOR-SMD" value="16 MHz" x="37.7063" y="6.7183"/>
+<element name="IC3" library="linear" package="SOT23" value="MCP1703CB" x="28.6893" y="17.3863" rot="R90"/>
+<element name="C5" library="SparkFun" package="0805" value="0.1μF" x="36.1061" y="15.8877"/>
+<element name="R1" library="LowPowerLab" package="0805" value="10KΩ" x="33.3121" y="6.7183"/>
+<element name="C4" library="LowPowerLab" package="0805" value="1μF" x="32.4485" y="17.3355" rot="R270"/>
+<element name="C2" library="SparkFun" package="0805" value="1μF" x="24.9936" y="17.1958" rot="R270"/>
+<element name="U$2" library="LowPowerLab" package="0805-LED" value="LED0805" x="50.1777" y="4.7625" rot="R180"/>
+<element name="R2" library="SparkFun" package="0805" value="1KΩ" x="46.2534" y="4.7752" rot="R180"/>
 <element name="U$1" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="50.6095" y="18.2372"/>
 <element name="U$5" library="LowPowerLab" package="RFM69W-MINPADS" value="RFM69" x="32.7533" y="11.5824" smashed="yes" rot="MR180"/>
 <element name="CN1" library="SparkFun-Connectors" package="USB-A-H" value="MINIB" x="14.9606" y="11.5824" smashed="yes">
 <attribute name="PROD_ID" value="CONN-08367" x="14.9606" y="11.5824" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="SparkFun" package="0805" value="" x="28.829" y="6.8326" smashed="yes" rot="R180">
-<attribute name="VALUE" x="29.845" y="7.9756" size="0.4064" layer="27" font="vector" rot="R180"/>
-</element>
-<element name="R6" library="SparkFun" package="0805" value="" x="23.9395" y="6.8453" smashed="yes">
-<attribute name="VALUE" x="22.9235" y="5.7023" size="0.4064" layer="27" font="vector"/>
-</element>
-<element name="U$4" library="LowPowerLab" package="0805-LED" value="LED0805" x="24.0284" y="4.6736" smashed="yes" rot="R180"/>
-<element name="U$7" library="LowPowerLab" package="0805-LED" value="LED0805" x="28.7274" y="4.6863" smashed="yes"/>
-<element name="C6" library="SparkFun" package="0805" value="0.1u" x="20.3708" y="17.1958" smashed="yes" rot="R90"/>
-<element name="D" library="LowPowerLab" package="0805" value="SHOTTKY" x="22.6822" y="17.1958" smashed="yes" rot="R270"/>
+<element name="R4" library="SparkFun" package="0805" value="47Ω" x="28.829" y="6.8326" rot="R180"/>
+<element name="R6" library="SparkFun" package="0805" value="47Ω" x="23.9395" y="6.8453"/>
+<element name="RX" library="LowPowerLab" package="0805-LED" value="Green" x="24.0284" y="4.6736" rot="R180"/>
+<element name="TX" library="LowPowerLab" package="0805-LED" value="Red" x="28.7274" y="4.6863"/>
+<element name="C6" library="SparkFun" package="0805" value="0.1μF" x="20.3708" y="17.1958" rot="R90"/>
+<element name="D" library="LowPowerLab" package="0805" value="SHOTTKY" x="22.6822" y="17.1958" rot="R270"/>
 <element name="R3" library="SparkFun" package="0805" value="27Ω" x="20.6121" y="10.4648"/>
 <element name="R5" library="SparkFun" package="0805" value="27Ω" x="20.6121" y="12.7"/>
 <element name="JP1" library="pinhead" package="2X03" value="" x="44.831" y="11.5824" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.276" y="7.7724" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R7" library="SparkFun" package="0805" value="10K" x="39.7764" y="15.9131" smashed="yes" rot="R180"/>
-<element name="C1" library="SparkFun" package="0805" value="0.1" x="30.4546" y="13.1953" smashed="yes" rot="R90"/>
+<element name="R7" library="SparkFun" package="0805" value="10KΩ" x="39.7764" y="15.9131" rot="R180"/>
+<element name="C1" library="SparkFun" package="0805" value="0.1μF" x="30.4546" y="13.1953" rot="R90"/>
 <element name="J$1" library="SparkFun-Connectors" package="SMA-EDGE" value="SMA_EDGE" x="50.5968" y="9.0424" rot="R90"/>
-<element name="U2" library="ATMEGA328P-MU" package="QFN50P500X500X100-33N" value="ATMEGA328P-MU" x="35.2552" y="11.5824" smashed="yes" rot="R90">
+<element name="U2" library="ATMEGA328P-MU" package="QFN50P500X500X100-33N" value="ATMEGA328P-MU" x="35.2552" y="11.5824" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="ATMEGA328P-MU" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="ATmega Series 20 MHz 32 KB Flash 2 KB SRAM 8-Bit Microcontroller - QFN-32" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="QFN-32 Atmel" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Atmel" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="2.55 USD" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="39.043709375" y="8.635590625" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="FT231XQ-R" library="ftdi_ft231xq-r" package="FTDI_FT231XQ-R_PACKAGE" value="FT231XQ-R" x="25.8572" y="11.5824" rot="R270"/>
 </elements>
@@ -1635,7 +1613,7 @@ design rules under a new name.</description>
 <wire x1="19.7027" y1="10.4554" x2="19.7121" y2="10.4648" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="U$4" pad="MINUS"/>
+<contactref element="RX" pad="MINUS"/>
 <contactref element="FT231XQ-R" pad="CBUS1"/>
 <wire x1="26.3252" y1="9.6144" x2="26.3252" y2="8.7268" width="0.1778" layer="1"/>
 <wire x1="26.3252" y1="8.7268" x2="26.9748" y2="8.0772" width="0.1778" layer="1"/>
@@ -1649,7 +1627,7 @@ design rules under a new name.</description>
 <wire x1="26.416" y1="5.0292" x2="26.416" y2="5.588" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="U$7" pad="MINUS"/>
+<contactref element="TX" pad="MINUS"/>
 <contactref element="FT231XQ-R" pad="CBUS2"/>
 <wire x1="23.8252" y1="12.1144" x2="23.1408" y2="12.1144" width="0.1778" layer="1"/>
 <wire x1="23.1408" y1="12.1144" x2="22.7584" y2="12.4968" width="0.1778" layer="1"/>
@@ -1665,12 +1643,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$8">
 <contactref element="R4" pad="1"/>
-<contactref element="U$7" pad="PLUS"/>
+<contactref element="TX" pad="PLUS"/>
 <wire x1="29.7274" y1="4.6863" x2="29.7274" y2="6.831" width="0.1778" layer="1"/>
 <wire x1="29.7274" y1="6.831" x2="29.729" y2="6.8326" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="U$4" pad="PLUS"/>
+<contactref element="RX" pad="PLUS"/>
 <contactref element="R6" pad="1"/>
 <wire x1="23.0395" y1="6.8453" x2="23.0395" y2="4.6847" width="0.1778" layer="1"/>
 <wire x1="23.0395" y1="4.6847" x2="23.0284" y2="4.6736" width="0.1778" layer="1"/>
