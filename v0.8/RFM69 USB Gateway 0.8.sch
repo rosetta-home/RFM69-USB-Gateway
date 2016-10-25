@@ -3318,7 +3318,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="X1" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz"/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703"/>
+<part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703-3.3V"/>
 <part name="C5" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
 <part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="10KΩ"/>
 <part name="C4" library="LowPowerLab" deviceset="CAP" device="0805" value="1μF"/>
