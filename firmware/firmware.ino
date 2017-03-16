@@ -52,15 +52,15 @@ void loop()
     {
       byte theNodeID = radio.SENDERID;
       radio.sendACK();
+      
+      Serial.println(data);
+      delay(1);
+      
+      memset(data, 0, sizeof data);
+      memset(_rssi, 0, sizeof _rssi);
+      
+      Blink(LED,10);
     }
-    
-    Serial.println(data);
-    delay(1);
-    
-    memset(data, 0, sizeof data);
-    memset(_rssi, 0, sizeof _rssi);
-    
-    Blink(LED,10);
   }
 }
 
