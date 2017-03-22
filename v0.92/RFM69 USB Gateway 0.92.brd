@@ -1636,16 +1636,18 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$7">
 <contactref element="TX" pad="MINUS"/>
 <contactref element="FT231XQ-R" pad="CBUS2"/>
-<wire x1="23.8252" y1="12.1144" x2="23.1408" y2="12.1144" width="0.1778" layer="1"/>
-<wire x1="23.1408" y1="12.1144" x2="22.7584" y2="12.4968" width="0.1778" layer="1"/>
-<wire x1="22.7584" y1="12.4968" x2="22.7584" y2="13.3096" width="0.1778" layer="1"/>
-<via x="22.7584" y="13.3096" extent="1-16" drill="0.254" diameter="0.127"/>
-<wire x1="22.7584" y1="13.3096" x2="22.7584" y2="10.922" width="0.1778" layer="16"/>
-<wire x1="22.7584" y1="10.922" x2="24.4348" y2="9.2456" width="0.1778" layer="16"/>
+<via x="23.368" y="14.3256" extent="1-16" drill="0.254" diameter="0.127"/>
+<wire x1="24.4348" y1="9.2456" x2="22.7584" y2="10.922" width="0.1778" layer="16"/>
 <wire x1="24.4348" y1="9.2456" x2="28.8544" y2="9.2456" width="0.1778" layer="16"/>
 <via x="28.8544" y="9.2456" extent="1-16" drill="0.254" diameter="0.127"/>
 <wire x1="28.8544" y1="5.8133" x2="27.7274" y2="4.6863" width="0.1778" layer="1"/>
 <wire x1="28.8544" y1="9.2456" x2="28.8544" y2="5.8133" width="0.1778" layer="1"/>
+<wire x1="23.09" y1="12.1144" x2="22.7076" y2="12.4968" width="0.1778" layer="1"/>
+<wire x1="22.7076" y1="12.4968" x2="22.7076" y2="13.6652" width="0.1778" layer="1"/>
+<wire x1="22.7076" y1="13.6652" x2="23.368" y2="14.3256" width="0.1778" layer="1"/>
+<wire x1="23.8252" y1="12.1144" x2="23.09" y2="12.1144" width="0.1778" layer="1"/>
+<wire x1="22.7584" y1="10.922" x2="22.7584" y2="13.716" width="0.1778" layer="16"/>
+<wire x1="22.7584" y1="13.716" x2="23.368" y2="14.3256" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="R4" pad="1"/>
