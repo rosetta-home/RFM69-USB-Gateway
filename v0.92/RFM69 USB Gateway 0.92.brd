@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1244,57 +1244,75 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="X1" library="SparkFun" package="RESONATOR-SMD" value="16 MHz" x="37.7063" y="6.7183" smashed="yes">
 <attribute name="VALUE" x="36.3601" y="7.7851" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="CSTCE16M0V53-R0" x="37.7063" y="6.7183" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC3" library="linear" package="SOT23" value="MCP1703-3.3V" x="28.6893" y="17.3863" smashed="yes" rot="R90">
 <attribute name="VALUE" x="26.3525" y="19.1897" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="MCP1703T-2502E/CB" x="28.6893" y="17.3863" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="SparkFun" package="0805" value="0.1μF" x="36.1061" y="15.8877" smashed="yes">
 <attribute name="VALUE" x="35.1917" y="14.5923" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="CC0805KRX7R9BB104" x="36.1061" y="15.8877" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="LowPowerLab" package="0805" value="10KΩ" x="33.3121" y="6.7183" smashed="yes">
 <attribute name="VALUE" x="34.5567" y="8.1915" size="0.508" layer="121" font="vector" rot="R180"/>
+<attribute name="MPN" value="RC0805FR-0710KL" x="33.3121" y="6.7183" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="LowPowerLab" package="0805" value="1μF" x="32.4485" y="17.3355" smashed="yes" rot="R270">
 <attribute name="VALUE" x="33.401" y="18.1102" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="MPN" value="CC0805ZRY5V8BB105" x="32.4485" y="17.3355" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="SparkFun" package="0805" value="1μF" x="24.9936" y="17.1958" smashed="yes" rot="R270">
 <attribute name="VALUE" x="25.9207" y="17.9324" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="MPN" value="CC0805ZRY5V8BB105" x="24.9936" y="17.1958" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="LowPowerLab" package="0805-LED" value="Status" x="61.5315" y="17.8054" smashed="yes" rot="R270">
 <attribute name="VALUE" x="62.5729" y="19.0373" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="MPN" value="LG R971-KN-1" x="61.5315" y="17.8054" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="SparkFun" package="0805" value="1KΩ" x="61.5442" y="13.5509" smashed="yes" rot="R270">
 <attribute name="VALUE" x="62.5729" y="14.2875" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="MPN" value="RC0805FR-071KL" x="61.5442" y="13.5509" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="SparkFun" package="0805" value="47Ω" x="28.829" y="6.8326" smashed="yes" rot="R180">
 <attribute name="VALUE" x="28.1178" y="7.6708" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="RC0805FR-0747RL " x="28.829" y="6.8326" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="SparkFun" package="0805" value="47Ω" x="23.9395" y="6.8453" smashed="yes">
 <attribute name="VALUE" x="23.2791" y="7.6835" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="RC0805FR-0747RL " x="23.9395" y="6.8453" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RX" library="LowPowerLab" package="0805-LED" value="Green" x="24.0284" y="4.6736" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.4856" y="3.7973" size="0.508" layer="121" font="vector" rot="R180"/>
+<attribute name="MPN" value="LG R971-KN-1" x="24.0284" y="4.6736" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TX" library="LowPowerLab" package="0805-LED" value="Red" x="28.7274" y="4.6863" smashed="yes">
 <attribute name="NAME" x="28.3718" y="3.2766" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="LG R971-KN-1" x="28.7274" y="4.6863" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="SparkFun" package="0805" value="0.1μF" x="20.3708" y="17.1958" smashed="yes" rot="R90">
 <attribute name="VALUE" x="21.7424" y="16.2052" size="0.508" layer="121" font="vector" rot="R90"/>
+<attribute name="MPN" value="CC0805KRX7R9BB104" x="20.3708" y="17.1958" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D" library="LowPowerLab" package="0805" value="SHOTTKY" x="22.6822" y="17.1958" smashed="yes" rot="R270">
 <attribute name="VALUE" x="23.5966" y="18.8595" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="MPN" value="SD0805S040S0R5" x="22.6822" y="17.1958" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="SparkFun" package="0805" value="27Ω" x="20.7645" y="10.4648" smashed="yes">
 <attribute name="VALUE" x="20.1549" y="9.017" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="RC0805FR-0727RL" x="20.7645" y="10.4648" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="SparkFun" package="0805" value="27Ω" x="20.7645" y="12.7" smashed="yes">
 <attribute name="VALUE" x="20.1041" y="13.6398" size="0.508" layer="121" font="vector"/>
+<attribute name="MPN" value="RC0805FR-0727RL" x="20.7645" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="SparkFun" package="0805" value="10KΩ" x="35.9664" y="18.3261" smashed="yes" rot="R180">
 <attribute name="VALUE" x="36.8808" y="17.4371" size="0.508" layer="121" font="vector" rot="R180"/>
+<attribute name="MPN" value="RC0805FR-0710KL" x="35.9664" y="18.3261" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="SparkFun" package="0805" value="0.1μF" x="30.4546" y="13.1953" smashed="yes" rot="R90">
 <attribute name="VALUE" x="29.464" y="12.2809" size="0.508" layer="121" font="vector" rot="R90"/>
+<attribute name="MPN" value="CC0805KRX7R9BB104" x="30.4546" y="13.1953" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="ATMEGA328P-MU" package="QFN50P500X500X100-33N" value="ATMEGA328P-MU" x="35.2552" y="11.5824" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1303,14 +1321,18 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MP" value="ATMEGA328P-MU" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="QFN-32 Atmel" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="2.55 USD" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ATmega328P-MU" x="35.2552" y="11.5824" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FT231XQ-R" library="ftdi_ft231xq-r" package="FTDI_FT231XQ-R_PACKAGE" value="FT231XQ-R" x="25.8572" y="11.5824" smashed="yes" rot="R270"/>
+<element name="FT231XQ-R" library="ftdi_ft231xq-r" package="FTDI_FT231XQ-R_PACKAGE" value="FT231XQ-R" x="25.8572" y="11.5824" smashed="yes" rot="R270">
+<attribute name="MPN" value="FT231XQ-R" x="25.8572" y="11.5824" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="J1" library="SparkFun-Connectors" package="USB-A-PCB-NOPASTE" value="USBPCB_NOPASTE" x="13.335" y="11.5824" smashed="yes"/>
 <element name="U$3" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="20.828" y="5.588"/>
 <element name="U$4" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="61.5696" y="9.4488"/>
 <element name="U1" library="SparkFun-RF" package="RFM69HCW-XXXS2" value="RFM69HCW" x="50.4444" y="11.5316" smashed="yes">
 <attribute name="PROD_ID" value="IC-11997, IC-12053" x="50.4444" y="11.5316" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.8612" y="19.2448" size="0.508" layer="121" font="vector" rot="R180" align="bottom-right"/>
+<attribute name="MPN" value="RFM69HW" x="50.4444" y="11.5316" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$6" library="LowPowerLab" package="RFM12B-ANTENNA" value="RFM12B_ANTENNA" x="62.0268" y="4.5466"/>
 </elements>
