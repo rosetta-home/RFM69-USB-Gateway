@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3280,78 +3280,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="X1" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz">
-<attribute name="MPN" value="CSTCE16M0V53-R0"/>
-</part>
-<part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703-3.3V">
-<attribute name="MPN" value="MCP1703T-2502E/CB"/>
-</part>
-<part name="C5" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF">
-<attribute name="MPN" value="CC0805KRX7R9BB104"/>
-</part>
-<part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="10KΩ">
-<attribute name="MPN" value="RC0805FR-0710KL"/>
-</part>
-<part name="C4" library="LowPowerLab" deviceset="CAP" device="0805" value="1μF">
-<attribute name="MPN" value="CC0805ZRY5V8BB105"/>
-</part>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0805" value="1μF">
-<attribute name="MPN" value="CC0805ZRY5V8BB105"/>
-</part>
-<part name="U$2" library="LowPowerLab" deviceset="LED" device="0805" value="Status">
-<attribute name="MPN" value="LG R971-KN-1"/>
-</part>
+<part name="X1" library="SparkFun" deviceset="RESONATOR" device="SMD" value="16 MHz"/>
+<part name="IC3" library="linear" deviceset="MCP1703" device="CB" value="MCP1703-3.3V"/>
+<part name="C5" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
+<part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="10KΩ"/>
+<part name="C4" library="LowPowerLab" deviceset="CAP" device="0805" value="1μF"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0805" value="1μF"/>
+<part name="U$2" library="LowPowerLab" deviceset="LED" device="0805" value="Status"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="1KΩ">
-<attribute name="MPN" value="RC0805FR-071KL"/>
-</part>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω">
-<attribute name="MPN" value="RC0805FR-0747RL "/>
-</part>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω">
-<attribute name="MPN" value="RC0805FR-0747RL "/>
-</part>
-<part name="RX" library="LowPowerLab" deviceset="LED" device="0805" value="Green">
-<attribute name="MPN" value="LG R971-KN-1"/>
-</part>
-<part name="TX" library="LowPowerLab" deviceset="LED" device="0805" value="Red">
-<attribute name="MPN" value="LG R971-KN-1"/>
-</part>
-<part name="C6" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF">
-<attribute name="MPN" value="CC0805KRX7R9BB104"/>
-</part>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="1KΩ"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="47Ω"/>
+<part name="RX" library="LowPowerLab" deviceset="LED" device="0805" value="Green"/>
+<part name="TX" library="LowPowerLab" deviceset="LED" device="0805" value="Red"/>
+<part name="C6" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="D" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="SHOTTKY">
-<attribute name="MPN" value="SD0805S040S0R5"/>
-</part>
-<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="27Ω">
-<attribute name="MPN" value="RC0805FR-0727RL"/>
-</part>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="27Ω">
-<attribute name="MPN" value="RC0805FR-0727RL"/>
-</part>
+<part name="D" library="LowPowerLab" deviceset="RESISTOR" device="0805" value="SHOTTKY"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="27Ω"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="27Ω"/>
 <part name="SUPPLY1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="10KΩ">
-<attribute name="MPN" value="RC0805FR-0710KL"/>
-</part>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="10KΩ"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF">
-<attribute name="MPN" value="CC0805KRX7R9BB104"/>
-</part>
-<part name="U2" library="ATMEGA328P-MU" deviceset="ATMEGA328P-MU" device="">
-<attribute name="MPN" value="ATmega328P-MU"/>
-</part>
-<part name="FT231XQ-R" library="ftdi_ft231xq-r" deviceset="FT231XQ-R" device="">
-<attribute name="MPN" value="FT231XQ-R"/>
-</part>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="0.1μF"/>
+<part name="U2" library="ATMEGA328P-MU" deviceset="ATMEGA328P-MU" device=""/>
+<part name="FT231XQ-R" library="ftdi_ft231xq-r" deviceset="FT231XQ-R" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB" device="PCB_NOPASTE"/>
 <part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U1" library="SparkFun-RF" deviceset="RFM69H" device="CW">
-<attribute name="MPN" value="RFM69HW"/>
-</part>
+<part name="U1" library="SparkFun-RF" deviceset="RFM69H" device="CW"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="U$6" library="LowPowerLab" deviceset="RFM12B_ANTENNA" device=""/>
@@ -3378,80 +3336,40 @@ wire antenna</text>
 <instance part="SUPPLY3" gate="1" x="35.56" y="48.26"/>
 <instance part="SUPPLY10" gate="GND" x="35.56" y="25.4"/>
 <instance part="SUPPLY14" gate="GND" x="40.64" y="83.82"/>
-<instance part="X1" gate="G$1" x="40.64" y="109.22">
-<attribute name="MPN" x="40.64" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="IC3" gate="G$1" x="68.58" y="43.18" rot="MR0">
-<attribute name="MPN" x="68.58" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="C5" gate="G$1" x="30.48" y="124.46">
-<attribute name="MPN" x="30.48" y="124.46" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R1" gate="G$1" x="22.86" y="149.86" rot="R90">
-<attribute name="MPN" x="22.86" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="C4" gate="G$1" x="35.56" y="38.1">
-<attribute name="MPN" x="35.56" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C2" gate="G$1" x="86.36" y="38.1">
-<attribute name="MPN" x="86.36" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$2" gate="G$1" x="114.3" y="68.58" smashed="yes" rot="R90">
-<attribute name="MPN" x="114.3" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
+<instance part="X1" gate="G$1" x="40.64" y="109.22"/>
+<instance part="IC3" gate="G$1" x="68.58" y="43.18" rot="MR0"/>
+<instance part="C5" gate="G$1" x="30.48" y="124.46"/>
+<instance part="R1" gate="G$1" x="22.86" y="149.86" rot="R90"/>
+<instance part="C4" gate="G$1" x="35.56" y="38.1"/>
+<instance part="C2" gate="G$1" x="86.36" y="38.1"/>
+<instance part="U$2" gate="G$1" x="114.3" y="68.58" smashed="yes" rot="R90"/>
 <instance part="SUPPLY6" gate="GND" x="114.3" y="60.96"/>
 <instance part="R2" gate="G$1" x="114.3" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="120.65" y="82.042" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="114.3" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="231.14" y="116.84">
-<attribute name="MPN" x="231.14" y="116.84" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R6" gate="G$1" x="236.22" y="119.38">
-<attribute name="MPN" x="236.22" y="119.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="RX" gate="G$1" x="218.44" y="119.38">
-<attribute name="MPN" x="218.44" y="119.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="TX" gate="G$1" x="210.82" y="116.84">
-<attribute name="MPN" x="210.82" y="116.84" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C6" gate="G$1" x="157.48" y="137.16">
-<attribute name="MPN" x="157.48" y="137.16" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="R4" gate="G$1" x="231.14" y="116.84"/>
+<instance part="R6" gate="G$1" x="236.22" y="119.38"/>
+<instance part="RX" gate="G$1" x="218.44" y="119.38"/>
+<instance part="TX" gate="G$1" x="210.82" y="116.84"/>
+<instance part="C6" gate="G$1" x="157.48" y="137.16"/>
 <instance part="SUPPLY9" gate="GND" x="137.16" y="132.08"/>
 <instance part="SUPPLY12" gate="GND" x="175.26" y="106.68"/>
 <instance part="SUPPLY16" gate="GND" x="157.48" y="132.08"/>
 <instance part="D" gate="G$1" x="162.56" y="157.48" smashed="yes" rot="R180">
 <attribute name="VALUE" x="161.29" y="161.798" size="1.778" layer="96"/>
-<attribute name="MPN" x="162.56" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="157.48" y="123.19">
-<attribute name="MPN" x="157.48" y="123.19" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R5" gate="G$1" x="157.48" y="120.65">
-<attribute name="MPN" x="157.48" y="120.65" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="R3" gate="G$1" x="157.48" y="123.19"/>
+<instance part="R5" gate="G$1" x="157.48" y="120.65"/>
 <instance part="SUPPLY1" gate="1" x="22.86" y="157.48"/>
-<instance part="R7" gate="G$1" x="111.76" y="106.68" rot="R90">
-<attribute name="MPN" x="111.76" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
+<instance part="R7" gate="G$1" x="111.76" y="106.68" rot="R90"/>
 <instance part="P+2" gate="1" x="111.76" y="119.38"/>
-<instance part="C1" gate="G$1" x="12.7" y="149.86">
-<attribute name="MPN" x="12.7" y="149.86" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U2" gate="G$1" x="68.58" y="116.84">
-<attribute name="MPN" x="68.58" y="116.84" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="FT231XQ-R" gate="G$1" x="190.5" y="129.54">
-<attribute name="MPN" x="190.5" y="129.54" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C1" gate="G$1" x="12.7" y="149.86"/>
+<instance part="U2" gate="G$1" x="68.58" y="116.84"/>
+<instance part="FT231XQ-R" gate="G$1" x="190.5" y="129.54"/>
 <instance part="J1" gate="G$1" x="124.46" y="144.78" rot="R180"/>
 <instance part="U$3" gate="G$1" x="144.78" y="17.78"/>
 <instance part="U$4" gate="G$1" x="137.16" y="17.78"/>
-<instance part="U1" gate="G$1" x="187.96" y="66.04">
-<attribute name="MPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="U1" gate="G$1" x="187.96" y="66.04"/>
 <instance part="P+3" gate="1" x="167.64" y="85.09"/>
 <instance part="SUPPLY2" gate="GND" x="208.28" y="45.72"/>
 <instance part="U$6" gate="G$1" x="218.44" y="63.5" rot="R90"/>
