@@ -1,11 +1,10 @@
 #include <RFM69.h>         //get it here: http://github.com/lowpowerlab/rfm69
 #include <SPIFlash.h>      //get it here: http://github.com/lowpowerlab/spiflash
 #include <SPI.h>           //comes with Arduino IDE (www.arduino.cc)
+#include "config.h"
 
-#define NODEID          1 // gateway has ID 1
 #define NETWORKID     101
 #define FREQUENCY     RF69_915MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
-#define ENCRYPTKEY    "Tt-Mh=SQ#dn#JY3_" //has to be same 16 characters/bytes on all nodes, not more not less!
 #define IS_RFM69HW    //uncomment only for RFM69HW! Leave out if you have RFM69W!
 #define LED             9
 #define FLASH_CS        8
@@ -23,7 +22,7 @@ void setup()
 {
   pinMode(10, OUTPUT);
   Serial.begin(115200);
-  
+
   radio.initialize(FREQUENCY,NODEID,NETWORKID);
 #ifdef IS_RFM69HW
   radio.setHighPower(); //uncomment only for RFM69HW!
@@ -37,7 +36,7 @@ void loop()
   if (radio.receiveDone())
   {
     int rssi = radio.RSSI;
-    
+
     if (radio.DATALEN > 0)
     {
       for (byte i = 0; i < radio.DATALEN; i++)
@@ -47,18 +46,18 @@ void loop()
     dtostrf(rssi, 3, 0, _rssi);
     strcat(data, ",r:");
     strcat(data, _rssi);
-    
+
     if (radio.ACKRequested())
     {
       byte theNodeID = radio.SENDERID;
       radio.sendACK();
-      
+
       Serial.println(data);
       delay(1);
-      
+
       memset(data, 0, sizeof data);
       memset(_rssi, 0, sizeof _rssi);
-      
+
       Blink(LED,10);
     }
   }

@@ -1,0 +1,8 @@
+[submodule "libraries/RFM69"]
+	path = libraries/RFM69
+	url = git@github.com:LowPowerLab/RFM69.git
+	branch = master
+[submodule "libraries/SPIFlash"]
+	path = libraries/SPIFlash
+	url = git@github.com:LowPowerLab/SPIFlash.git
+	branch = master
