@@ -15,8 +15,6 @@
 
 RFM69 radio;
 SPIFlash flash(FLASH_CS, 0xEF30); //EF40 for 16mbit windbond chip
-char data[100];
-char _rssi[5];
 
 void setup()
 {
@@ -35,6 +33,8 @@ void loop()
 {
   if (radio.receiveDone())
   {
+    char data[100];
+    char _rssi[5];
     int rssi = radio.RSSI;
 
     if (radio.DATALEN > 0)
@@ -47,23 +47,14 @@ void loop()
     strcat(data, ",r:");
     strcat(data, _rssi);
 
-    if (radio.ACKRequested())
-    {
-      byte theNodeID = radio.SENDERID;
-      radio.sendACK();
-
-      Serial.println(data);
-      delay(1);
-
-      memset(data, 0, sizeof data);
-      memset(_rssi, 0, sizeof _rssi);
-
-      Blink(LED,10);
-    }
+    Serial.println(data);
+    Serial.flush();
+    blink(LED,10);
+    if (radio.ACKRequested()) radio.sendACK();
   }
 }
 
-void Blink(byte PIN, int DELAY_MS)
+void blink(byte PIN, int DELAY_MS)
 {
   pinMode(PIN, OUTPUT);
   digitalWrite(PIN,HIGH);
