@@ -17,6 +17,8 @@ RFM69 radio;
 SPIFlash flash(FLASH_CS, 0xEF30); //EF40 for 16mbit windbond chip
 char data[100];
 char _rssi[5];
+char END_FRAME = 'n';
+char TOUCHSTONE_FRAME = ',';
 
 void setup()
 {
@@ -33,8 +35,23 @@ void setup()
 
 void loop()
 {
+  if(Serial.available()){
+    int total_bytes = 10;
+    char incoming_data[total_bytes];
+    int touchstone = Serial.parseInt();
+    int comma[1] = { Serial.read() };
+    Serial.readBytesUntil(END_FRAME, incoming_data, total_bytes);
+    Serial.print("Sending to: ");
+    Serial.println(touchstone);
+    Serial.println(incoming_data);
+    radio.sendWithRetry(touchstone, incoming_data, strlen(incoming_data), 5, 100);
+    delay(100);
+    memset(incoming_data, 0, sizeof incoming_data);
+    
+  }
   if (radio.receiveDone())
   {
+    //Serial.println("Got Data");
     int rssi = radio.RSSI;
 
     if (radio.DATALEN > 0)
@@ -51,15 +68,15 @@ void loop()
     {
       byte theNodeID = radio.SENDERID;
       radio.sendACK();
-
-      Serial.println(data);
-      delay(1);
-
-      memset(data, 0, sizeof data);
-      memset(_rssi, 0, sizeof _rssi);
-
-      Blink(LED,10);
     }
+
+    Serial.println(data);
+    delay(1);
+
+    memset(data, 0, sizeof data);
+    memset(_rssi, 0, sizeof _rssi);
+
+    Blink(LED,10);
   }
 }
 
