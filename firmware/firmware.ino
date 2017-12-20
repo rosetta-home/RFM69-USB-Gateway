@@ -44,8 +44,8 @@ void loop()
     Serial.print("Sending to: ");
     Serial.println(touchstone);
     Serial.println(incoming_data);
-    radio.sendWithRetry(touchstone, incoming_data, strlen(incoming_data), 5, 100);
-    delay(100);
+    radio.sendWithRetry(touchstone, incoming_data, strlen(incoming_data), 8, 0);
+    delay(10);
     memset(incoming_data, 0, sizeof incoming_data);
     
   }
