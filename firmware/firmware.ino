@@ -41,9 +41,6 @@ void loop()
     int touchstone = Serial.parseInt();
     int comma[1] = { Serial.read() };
     Serial.readBytesUntil(END_FRAME, incoming_data, total_bytes);
-    Serial.print("Sending to: ");
-    Serial.println(touchstone);
-    Serial.println(incoming_data);
     radio.sendWithRetry(touchstone, incoming_data, strlen(incoming_data), 8, 0);
     delay(10);
     memset(incoming_data, 0, sizeof incoming_data);
