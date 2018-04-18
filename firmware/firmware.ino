@@ -35,6 +35,12 @@ void loop()
 {
   if (radio.receiveDone())
   {
+    if (radio.ACKRequested())
+    {
+      byte theNodeID = radio.SENDERID;
+      radio.sendACK();
+      Blink(LED,10);
+    }
     int rssi = radio.RSSI;
 
     if (radio.DATALEN > 0)
@@ -46,20 +52,11 @@ void loop()
     dtostrf(rssi, 3, 0, _rssi);
     strcat(data, ",r:");
     strcat(data, _rssi);
+    Serial.println(data);
+    delay(1);
 
-    if (radio.ACKRequested())
-    {
-      byte theNodeID = radio.SENDERID;
-      radio.sendACK();
-
-      Serial.println(data);
-      delay(1);
-
-      memset(data, 0, sizeof data);
-      memset(_rssi, 0, sizeof _rssi);
-
-      Blink(LED,10);
-    }
+    memset(data, 0, sizeof data);
+    memset(_rssi, 0, sizeof _rssi);
   }
 }
 
